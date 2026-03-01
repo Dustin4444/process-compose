@@ -1,8 +1,6 @@
 module github.com/f1bonacc1/process-compose
 
-go 1.23.0
-
-toolchain go1.23.8
+go 1.24.0
 
 require (
 	dario.cat/mergo v1.0.1
@@ -23,7 +21,7 @@ require (
 	github.com/spf13/pflag v1.0.6
 	github.com/stoewer/go-strcase v1.3.0
 	github.com/swaggo/swag v1.16.4
-	golang.org/x/term v0.31.0
+	golang.org/x/term v0.37.0
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gopkg.in/yaml.v3 v3.0.1
 )
@@ -77,10 +75,10 @@ require (
 	github.com/wk8/go-ordered-map/v2 v2.1.8 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	golang.org/x/arch v0.16.0 // indirect
-	golang.org/x/crypto v0.37.0 // indirect
-	golang.org/x/net v0.39.0 // indirect
-	golang.org/x/text v0.24.0 // indirect
-	golang.org/x/tools v0.32.0 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
+	golang.org/x/tools v0.38.0 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
 )
 
@@ -90,5 +88,5 @@ require (
 	github.com/rs/zerolog v1.34.0
 	github.com/swaggo/files v1.0.1
 	github.com/swaggo/gin-swagger v1.6.0
-	golang.org/x/sys v0.32.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
 )
